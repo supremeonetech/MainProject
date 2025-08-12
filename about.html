@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>About — WisdomCyber Innovations</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="topnav" aria-label="Main navigation">
+      <a href="index.html" class="brand">WisdomCyber Innovations</a>
+      <button id="menu-toggle" aria-expanded="false" aria-controls="nav-list">☰</button>
+      <ul id="nav-list" class="nav-list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <article>
+      <h1>About WisdomCyber Innovations</h1>
+      <p>
+        WisdomCyber Innovations is a student-focused initiative offering workshops, templates, and hands-on projects
+        that teach web development and cybersecurity fundamentals. This site is a final project for the WDD course and
+        demonstrates responsive design, accessibility, and JavaScript-driven interactivity.
+      </p>
+
+      <h2>Our mission</h2>
+      <p>
+        To provide practical, accessible resources for students learning modern web development. We emphasize usable
+        code, ethical cybersecurity practices, and community support.
+      </p>
+
+      <h2>Contact</h2>
+      <p>Email: <a href="wisdomcyberinnovations@gmail.com">wisdomcyberinnovations@gmail.com</a></p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year2"></span> WisdomCyber Innovations</p>
+    <p><a href="references.html">References & image credits</a></p>
+  </footer>
+
+  <script>document.getElementById('year2').textContent = new Date().getFullYear();</script>
+  <script src="js/main.js"></script>
+</body>
+</html>
